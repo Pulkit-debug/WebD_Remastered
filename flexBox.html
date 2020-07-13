@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            border: 2px solid red;
+            width: 100%;
+            height: 500px;
+            display: flex;
+       /* properties of flex container */
+            flex-direction: row;
+            flex-wrap: wrap;
+            /* justify-content:space-evenly; */
+            align-items: flex-end;
+        }
+        .item {
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+            border: 1px solid black;
+            margin: 5px;
+            padding: 5px;
+            /* flex-basis: 300px; */
+            /* When flex direction is set to row then the flex basis will be controlling width and vice-versa    */
+            
+        }
+        #item-3 {
+            align-self: flex-end;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- // flexbox is used to align items in a box  -->
+
+    <div class="container">
+        <div class="item" id="item-1">first</div>
+        <div class="item" id="item-2">second</div>
+        <div class="item" id="item-3">third</div>
+        <div class="item" id="item-4">fourth</div>
+        <div class="item" id="item-5">fifth</div>
+        <div class="item" id="item-6">sixth</div>
+
+    </div>
+</body>
+</html>

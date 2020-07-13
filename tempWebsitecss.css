@@ -1,0 +1,119 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('/tempWebsiteImages/back.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar { 
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.navbar {
+    border-radius: 15   px;
+}
+.navbar ul {
+    overflow: auto;
+    margin:0;
+}
+.navbar li {
+    font-weight: bold;
+    margin: 13px 12px;
+    float: left;
+    list-style: none;
+    padding: 6px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    
+}
+
+.navbar input {
+    float: right;
+    margin: 17px 50px;
+    border-radius: 10px;
+    padding: 5px 25px;
+}
+
+.content {
+    /* border: 2px solid red;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    width: 250px;
+    height: 250px; */
+    /* float: right; */
+}
+
+@-webkit-keyframes blink { 50% { border-color: #ff0000; }  }
+
+.content img {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    border: 4px solid  ;
+	position: absolute ;
+	top: 100px ;
+    right: 0px;
+	text-align:center ;
+    font-family: monospace ;
+    -webkit-animation: blink .5s step-end infinite alternate; 
+
+}
+ 
+.content p {
+    font-size: 20px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 500px;
+    height: 225px;
+    position: absolute;
+    left: 750px;
+    top: 100px;
+
+}
+.content h1 {
+    font-size: 60px;
+    display: inline-block;
+    width: 500px;
+    height: 225px;
+    position: absolute;
+    left: 750px;
+    top: 200px;
+}
+
+.formContainer form {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 424px;
+    right: 269px;
+    width: 500px;
+    height: 350px;
+}
+
+/* .form {
+    right: 267px;
+    top: 400px;
+    width: 500px;
+} */
+#name, #email {
+    margin: 10px 67px;
+}
+
+.formContainer h3 {
+    display: inline;
+}
+
+#mobileno {
+    margin: 10px 27px;
+}
+
+#mydesign {
+    margin: 10px 0px;
+}
