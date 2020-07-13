@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: black;
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        header::before {
+            background: url('https://source.unsplash.com/user/erondu/1600x900') no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.3;
+
+        }
+        header {
+            display: flex;
+            flex-direction: column;
+        }
+        .navbar ul {
+            display: flex;
+            list-style: none;
+            font-size: 1.2rem;
+            
+        }
+        .navbar li {
+            margin: 0px 18px;
+            color: white;
+        }
+        section {
+            /* border: 2px solid red; */
+            height: 400px;
+            display: flex;
+            font-size: 1.5rem;
+            flex-direction: column;
+            text-align: center;
+            color: white;
+            margin: 34px 150px;
+            justify-content: center;
+        }
+        p {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    
+<header>
+<nav class="navbar">
+    <ul class="navigation ">
+        <li class="item">Home</li>
+        <li class="item">About</li>
+        <li class="item">Join us</li>
+        <li class="item">contact us</li>
+    </ul>
+</nav>
+
+
+<section>
+    <h4>Welcome to the Website!!!</h4>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error, fugiat tempora dolorum esse obcaecati ullam doloribus nulla. Nihil, quas voluptas fugit atque dolor doloribus, sed tempore corporis quibusdam numquam vero!</p>
+</section>
+</header>
+
+</body>
+</html>

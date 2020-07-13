@@ -5,6 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css.css">
+     <style>
+        /* <!-- .container {
+            background-color: cadetblue;
+        }
+        .items {
+            text-align: center;
+            display: none;
+        }
+        @media (max-width: 300px) {
+            #item1 {
+                display: block;
+                background-color: coral;
+            }
+        }
+        @media (min-width: 300px) and (max-width: 500px) {
+            #item2 {
+                display: block;
+                background-color: chartreuse;
+            }
+        } --> */
+
+        
+        div li {
+            text-align: center;
+            
+        }
+        .pseudocontainer ul {
+            list-style: none;
+        }
+
+        li:nth-child(2n+3) { 
+            /* it is starting from n = 0 upto total li` */
+            /* same way we can use odd and even in bracketrs in place of 2n + 3 */
+            background-color: cyan;
+        }
+        .pseudocontainer li[id="sec"] {
+            background-color: orange;
+        }
+
+
+    </style>
 </head>
 <body>
     <!-- <a href="https://google.com:" target="#">Go to google</a>
@@ -92,7 +133,31 @@
     <!-- margin auto will center the container -->
 
 
-    
+    <!-- **************** Media Querires *********************1 -->
+    <!-- <div class="container">
+    <div class="items" id="item1">phone</div>
+    <div class="items" id="item2">tablet</div>
+    <div class="items" id="item3">laptop</div>
+    <div class="items" id="item4">desktop</div> -->
 
+
+        <!-- ********** ATtributes and nth-child pseudo selectors ************* -->
+
+        <div class="pseudocontainer">
+            <ul>
+                <li class="item">first</li>
+                <li class="item" id="sec">second</li>
+                <li class="item">third</li>
+                <li class="item">fourth</li>
+                <li class="item">fifth</li>
+                <li class="item">sixth</li>
+                <li class="item">seven</li>
+                <li class="item">eight</li>
+                <li class="item">nine</li>
+                <li class="item">ten</li>
+            </ul>
+        </div>
+
+</div>
 </body>
 </html>
