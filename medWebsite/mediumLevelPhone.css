@@ -1,0 +1,24 @@
+body {
+    background-color: red;
+}
+.mid-section {
+    height: 1015px;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.navbar {
+    flex-direction: column;
+}
+.header-section {
+    margin: 0px 13px;
+    font-size: 13px;
+    padding: 0px 76px;
+}
+header::before {
+    overflow: hidden;
+    height: 400px;
+}
+.clients {
+    overflow: hidden;
+}
